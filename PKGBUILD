@@ -1,5 +1,5 @@
 pkgbase=python3-sqlalchemy
-pkgname=('python-sqlalchemy')
+pkgname=('python3-sqlalchemy')
 pkgver=1.2.14
 pkgrel=1
 arch=('x86_64')
@@ -14,7 +14,7 @@ build() {
   python3 setup.py build
 }
 
-package_python-sqlalchemy() {
+package_python3-sqlalchemy() {
   pkgdesc='Python SQL toolkit and Object Relational Mapper'
   depends=('python3')
   optdepends=('python3-psycopg2: connect to PostgreSQL database')
